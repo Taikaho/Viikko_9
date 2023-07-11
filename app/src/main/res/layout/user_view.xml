@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llUsers"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_marginTop="10dp"
+    android:background="#658BC34A"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/txtInputFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nimi"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:id="@+id/txtDegreeProgram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="koulutuslinja" />
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:id="@+id/txtMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mail" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
